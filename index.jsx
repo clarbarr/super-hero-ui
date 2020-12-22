@@ -1,4 +1,5 @@
 import React from 'react';
 import { render } from 'react-dom';
+import Heroes from './components/heroes';
 
-render(<div>Heroes</div>, document.getElementById('root'));
+render(<Heroes />, document.getElementById('root'));
